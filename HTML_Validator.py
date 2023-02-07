@@ -25,7 +25,7 @@ def validate_html(html):
                 stack.pop()
             else:
                 return False
-    return (len(stack)) == 0 
+    return (len(stack)) == 0
 
     # HINT:
     # use the _extract_tags function below to generate a list of html tags without any extra text;
